@@ -30,7 +30,7 @@ public class ShortUrlService {
 	
 	public String getLongUrl(String shortUrl) throws Exception {
 		if (null == shortUrl || "".equals(shortUrl.trim())) {
-			throw new Exception("longUrl should not null or empty");
+			throw new Exception("shortUrl should not null or empty");
 		}
 		String longUrl = collectorService.getLongUrl(shortUrl);
 		if (null == longUrl) {
