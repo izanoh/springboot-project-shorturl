@@ -1,20 +1,11 @@
 package com.nutsathaporn.urlshorter.service;
 
-import static org.junit.jupiter.api.Assertions.assertEquals;
-import static org.junit.jupiter.api.Assertions.assertNotEquals;
-import static org.junit.jupiter.api.Assertions.assertNotNull;
-import static org.junit.jupiter.api.Assertions.assertNull;
-import static org.mockito.ArgumentMatchers.any;
-import static org.mockito.ArgumentMatchers.anyString;
-
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.mockito.BDDMockito;
 import org.mockito.Mock;
 import org.mockito.MockitoAnnotations;
-
-import com.nutsathaporn.urlshorter.object.ObjectUrl;
 
 public class ShortUrlServiceTesGetLongUrl {
 	
