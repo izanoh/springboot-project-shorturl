@@ -16,7 +16,7 @@ import org.mockito.MockitoAnnotations;
 
 import com.nutsathaporn.urlshorter.object.ObjectUrl;
 
-public class ShortUrlServiceTest {
+public class ShortUrlServiceTesGenShortUrl {
 	
 	@Mock
 	private UrlCollectorService collectorService;
